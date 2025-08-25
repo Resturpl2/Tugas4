@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata Diri</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      max-width: 600px;
+      display: flex;
+      gap: 20px;
+    }
+    .card img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #00aaff;
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    h2 {
+      margin: 0;
+      color: #333;
+    }
+    p {
+      margin: 5px 0;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <!-- Ganti "foto.jpg" dengan nama file fotomu -->
+    <img src="https://photos.app.goo.gl/VSTAixpUUr9wkzCv6" alt="Foto Saya">
+    <div class="info">
+      <h2>Nama: Ananda Restu Kurnia sandi</h2>
+      <p>Tempat, Tanggal Lahir: [Jember,20 Januari 2009]</p>
+      <p>Alamat: [Jember,Jawa Timur]</p>
+      <p>Sekolah: [SMK NEGERI 6 JEMBER]</p>
+      <p>Hobi: [Bermain Game]</p>
+    </div>
+  </div>
+</body>
+</html>
